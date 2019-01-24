@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color:#c6ccff;
+}
+header{
+    width: 100%
+}
+.encabezado{
+    font-family: fantasy;
+    text-decoration: underline; 
+}
+
+.a{
+    background-image: url(../img/0.jpg);
+
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    text-align: justify;
+}
+.a > p{
+    color: aliceblue;
+    font-family: sans-serif;
+    margin-left: 10px;
+    text-indent: 50px;
+}
+
+.b{
+    background-image: url(../img/02.jpg);
+    height: auto;
+    width: auto;
+    color:black;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.b > p{
+    text-align:justify;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 50px;
+}
+.b > background{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.segundo{
+        color:black;
+    
+}
+.c{
+    text-indent: 50px;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    background-image: url();
+}
+.navegacion{
+    width: 90%;
+    margin: 1px auto;
+    background: #fff;
+    max-width: 100%;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+    text-align: center;
+    
+}
+.menu li a:hover{
+    color:blueviolet;
+    transition: all .5s;
+}
+nav > ul li a{
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition:all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+/*Iconos de la barra de menu*/
+nav > ul > li > a span{
+    background: #353535;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -55px;
+      
+} 
+nav > ul > li > a span i{
+    display: block;
+    line-height: 50px;
+    padding-top: 16px;
+}
+nav > ul > li > a:hover > span{
+    top:0;
+}
+/*seccion de los sub_menus*/
+
+.sub_menu{
+    position: absolute;
+    background: #333333;
+    width: 100%;
+    visibility:hidden;
+    opacity: 0;
+    transition: opacity 0.9s;
+}
+.sub_menu li a{
+    display: block;
+    padding:15px 10px;
+    color: #fff;
+    font-family: 'Open sans';
+    text-decoration: none;
+    text-align: center;
+}
+.menu li:hover .sub_menu{
+    visibility:visible;
+    opacity: 1;
+}
+li{
+    list-style: none;
+}
+

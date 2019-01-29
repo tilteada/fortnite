@@ -6,7 +6,6 @@
     box-sizing: border-box;
     
 }
-
 body{
     background-color:#c6ccff;
 }
@@ -18,7 +17,7 @@ header{
     text-decoration: underline; 
 }
 
-.a{
+.temporada1{
     background-image: url(../img/0.jpg);
 
     width: auto;
@@ -28,14 +27,14 @@ header{
     border-radius: 15px;
     text-align: justify;
 }
-.a > p{
+.temporada1 > p{
     color: aliceblue;
     font-family: sans-serif;
     margin-left: 10px;
     text-indent: 50px;
 }
 
-.b{
+.temporada2{
     background-image: url(../img/02.jpg);
     height: auto;
     width: auto;
@@ -44,22 +43,18 @@ header{
     margin-left: 20px;
     margin-right: 20px;
 }
-.b > p{
+.temporada2 > p{
     text-align:justify;
     font-family: sans-serif;
     margin-left: 10px;
     margin-right: 10px;
     text-indent: 50px;
 }
-.b > background{
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}
-.segundo{
+.titulo2{
         color:black;
     
 }
-.c{
+.temporada3{
     text-indent: 50px;
     width: auto;
     height: auto;
@@ -140,7 +135,14 @@ nav > ul > li > a:hover > span{
     visibility:visible;
     opacity: 1;
 }
+/*esto es para quitar las viñetas de las subcases de la barra de inicio*/
 li{
     list-style: none;
 }
+/*Pagina actualizaciones*/
+.act{
+    background-color:skyblue; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 
